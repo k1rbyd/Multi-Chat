@@ -1,3 +1,4 @@
+![License](https://img.shields.io/github/license/k1rbyd/Multi-Chat)  ![Python](https://img.shields.io/badge/python-3.x-blue)  
 
 # Multi-User Chat Application with Local and Remote Connectivity
 
@@ -217,7 +218,3 @@ Remote Chatroom
 ## Contributing
 
 Contributions are welcome! Fork the repository, make your changes, and submit a pull request.
-
-![License](https://img.shields.io/github/license/k1rbyd/Multi-Chat)  
-![Python](https://img.shields.io/badge/python-3.x-blue)  
-
