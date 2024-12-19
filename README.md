@@ -28,27 +28,27 @@ Whether you’re looking to host a local chat for friends or provide a simple re
 
 	Download the project from GitHub:
 	
-	```
+	
 	git clone https://github.com/k1rbyd/Multi-Chat.git  
 	cd Multi-Chat  
-	```
+	
 	
 	Step 2: Install Python (if not installed)
 		•	Download Python and install it.
 		•	Verify installation by running:
 	 
-	```
+	
 	python --version  
-	```
+	
 	
 	Step 3: Install ngrok (for remote use)
 		•	Download ngrok from ngrok.com.
 		•	Extract the downloaded file and add it to your system’s PATH.
 		•	Verify installation by running:
 	
-	```
+	
 	ngrok version  
-	```
+	
 
 ## How to Execute the Project
 
@@ -56,9 +56,9 @@ Whether you’re looking to host a local chat for friends or provide a simple re
 
 	1.	Run the server script:
 
-	```
+	
 	python server.py  
-	```
+	
 
 	•	You will be prompted to set a server password (e.g., 1234).
 	•	The server will display the port it’s running on (default: 5002).
@@ -66,9 +66,9 @@ Whether you’re looking to host a local chat for friends or provide a simple re
 	2.	Connect clients:
 	•	On each client machine, run the client script:
 	
- 	```
+ 	
 	python client.py  
-	```
+	
 
 	•	Enter the server’s local IP (displayed on the server terminal) and port (e.g., 5002).
 	•	Enter the server password and a unique username to join the chatroom.
@@ -77,26 +77,26 @@ Whether you’re looking to host a local chat for friends or provide a simple re
 	
  	1.	Start the server script as before:
 
-	```
+	
 	python server.py  
-	```
+	
 
 	•	The server will run on a port (default: 5002).
 
 	2.	Open a new terminal and expose the server using ngrok:
 
-	```
+	
 	ngrok tcp 5002  
-	```
+	
 
 	•	ngrok will generate a URL like tcp://0.tcp.ngrok.io:PORT.
 
 	3.	Connect clients remotely:
 	•	Run the client script on each client machine:
 
-	```
+	
 	python client.py  
-	```
+	
 
 	•	Use the ngrok-generated URL and port when prompted.
 	•	Enter the server password and a unique username to join the chatroom.
@@ -105,10 +105,10 @@ Whether you’re looking to host a local chat for friends or provide a simple re
 
 If the server fails to start because the port is already in use, free it with:
 
-`
+
 lsof -i :5002  
 kill -9 <PID>  
-`
+
 
 ## File Descriptions
 
