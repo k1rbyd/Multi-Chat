@@ -1,6 +1,6 @@
 ![License](https://img.shields.io/github/license/k1rbyd/Multi-Chat)  ![Python](https://img.shields.io/badge/python-3.x-blue)  
 
-# Multi-User Chat Application with Local and Remote Connectivity
+# Multi-User Chat Application with Local and Remote Connectivity [Exclusive for Mac]
 
 ## About the Project
 
