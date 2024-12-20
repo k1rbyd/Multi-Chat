@@ -1,0 +1,6 @@
+1. run python server.py
+2. see what port you are using and type in : ngrok tcp :-port-:
+3. copy the site:port and use that when we use, python client.py
+
+
+{ lsof -i :5002 } [ to make the port free ]
